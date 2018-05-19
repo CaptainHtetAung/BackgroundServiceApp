@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.htetaung.backgroundapp.PictureViewActivity">
+    tools:context="com.htetaung.backgroundapplication.PictureViewActivity">
     <android.support.v7.widget.AppCompatButton
         android:id="@+id/save_to_storage"
         style="@style/btn"
@@ -18,11 +18,5 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
-    <android.support.v7.widget.AppCompatButton
-        style="@style/btn"
-        android:layout_toRightOf="@id/save_to_storage"
-        android:layout_marginLeft="30dp"
-        android:text="@string/save_on_memory"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+
 </RelativeLayout>
