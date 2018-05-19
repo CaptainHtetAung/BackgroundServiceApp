@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.htetaung.backgroundapp.MainActivity">
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/start_service"
+        style="@style/btn"
+        android:text="@string/start_service"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/header_for_camera_chooser"
+        android:text="@string/header_camera_chooser"
+        android:layout_below="@id/start_service"
+        android:layout_width="match_parent"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content" />
+
+    <RadioGroup
+        android:id="@+id/camera_chooser"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/header_for_camera_chooser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/front_camera"
+            android:text="@string/front_camera"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/back_camera"
+            android:text="@string/back_camera"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
+
+</RelativeLayout>

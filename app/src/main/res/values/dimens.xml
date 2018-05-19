@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="btn_pad">20dp</dimen>
+    <dimen name="btn_pad_left">10dp</dimen>
+    <dimen name="btn_pad_right">10dp</dimen>
+    <dimen name="btn_pad_bottom">10dp</dimen>
+    <dimen name="btn_pad_top">10dp</dimen>
+    <dimen name="btn_marg_left">5dp</dimen>
+    <dimen name="btn_marg_right">5dp</dimen>
+    <dimen name="btn_marg_bottom">5dp</dimen>
+    <dimen name="btn_marg_top">5dp</dimen>
+</resources>
